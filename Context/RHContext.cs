@@ -11,7 +11,6 @@ namespace TrilhaNetAzureDesafio.Context
     {
         public RHContext(DbContextOptions<RHContext> options) : base(options)
         {
-
         }
 
         public DbSet<Funcionario> Funcionarios { get; set; }
